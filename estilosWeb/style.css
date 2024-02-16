@@ -86,7 +86,7 @@ section#header_top > a{ /*logo-imagem*/
 /*informacoes inicial 01*/
 main > section{
     width: 100%;
-    height: 88.8vh;
+    height: 100%;
     background-color: var(--color_web_corpoPaginar);
 }
 #informacoes_inicial{

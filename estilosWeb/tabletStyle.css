@@ -7,4 +7,22 @@
     #header_top_mobile{
         display: none;
     }
+
+    /*adptação-contudo da pagina*/
+
+    img#config-mobile{ /*imagen-mobile-confg*/
+        width: 300px;
+        position: relative;
+    }
+    #informacoes_inicial{
+        padding-top: 140px;
+    }
+    #container_informacoes{
+        width: 100%;
+        padding: 10px;
+        margin-left: 80px;
+    }
+    #botton_contate-me{
+        width: 50%;
+    }
 }
