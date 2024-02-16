@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JefersonSilva | Dev Front-End</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="faficon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilosWeb/style.css">
+    <link rel="stylesheet" href="estilosWeb/mobileStyle.css">
+    <link rel="stylesheet" href="estilosWeb/tabletStyle.css">
+    <link rel="stylesheet" href="estilosWeb/Animaçaostyle.css">
+</head>
+<body>
+    <header>
+        <section id="header_top">
+            <a href="#"><img src="faficon/favicon.ico" alt="logo_dev"></a> <!--logo(imagem+deskotp+mobile+etc..)-->
+
+            <button onclick="clica()" id="btn-menu">
+                <span class="linha1"></span>
+                <span class="linha2"></span>
+                <span class="linha3"></span>
+            </button>
+
+            <nav id="header_top_mobile">
+                <section id="menu_mobile_top">
+                    <h1>JEFERSON ALEXANDRE</h1>
+                    <p>Developer Front-End (i)</p>
+                </section> <!--parte externa superior do menu-mobile-->
+                
+                <ul id="menu_mobile">
+                    <!--interna menu-mobile-->
+
+                    <a href="#">
+                        <div class="container">
+                            <i id="esfera_icon">
+                                <span class="material-symbols-outlined">
+                                    star
+                                </span>
+                            </i>
+                            <h1>início</h1>
+                            <h2>></h2>
+                        </div>
+                    </a> <!--01-container-->
+
+                    <a href="#">
+                        <div class="container">
+                            <i id="esfera_icon">
+                                <span class="material-symbols-outlined">
+                                    star
+                                </span>
+                            </i>
+                            <h1>Contate-me</h1>
+                            <h2>></h2>
+                        </div>
+                    </a> <!--02-container-->
+
+                    <a href="#">
+                        <div class="container">
+                            <i id="esfera_icon">
+                                <span class="material-symbols-outlined">
+                                    star
+                                </span>
+                            </i>
+                            <h1>SKILLS</h1>
+                            <h2>></h2>
+                        </div>
+                    </a> <!--03-container-->
+
+                    <a href="#">
+                        <div class="container">
+                            <i id="esfera_icon">
+                                <span class="material-symbols-outlined">
+                                    star
+                                </span>
+                            </i>
+                            <h1>TODOS-PROJETOS</h1>
+                            <h2>></h2>
+                        </div>
+                    </a> <!--04-container-->
+
+                </ul>
+            </nav>
+
+            <nav id="header_top_desktop">
+                <ul id="menu_desktop">
+                    <a href="#">
+                        <li>início</li>
+                    </a>
+
+                    <a href="#">
+                        <li>Contate-me</li>
+                    </a>
+
+                    <a href="#">
+                        <li>SKILLS</li>
+                    </a>
+
+                    <a href="#" id="All_projetos">
+                        <li>TODOS-PROJETOS</li>
+                    </a>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section id="informacoes_inicial">
+
+            <div id="container_informacoes">
+                <p>OLÁ, ME CHAMO</p>
+                <H1>Jeferson Alexandre</H1>
+                <h2>Developer Front-End (i)</h2>
+                <p>"Olá, seja bem-vindo! Sou um estudante e um apreciador da área de Front-End, em busca de estágio ou trabalho, disposto a aprender cada dia mais!"</p>
+                <ul id="botton_contate-me">
+                    <a href="#">
+                        <li>Contate-me</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div id="container_imagens">
+                <img id="config-mobile" src="imagens/foto_personagem_computador/foto_web_portfolio.png" alt="imagens_personagem_boneco_pc">
+            </div>
+        </section>
+    </main>
+    <script src="sistema/menu_mobile/menu_mobile_sistema.js"></script>
+</body>
+</html>

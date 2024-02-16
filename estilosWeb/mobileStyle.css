@@ -1,0 +1,194 @@
+@charset "UTF-8";
+
+*{
+    padding: 0%;
+    margin: 0%;
+    font-size: 14px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --color_web_corpoPaginar_mobile_menu: #212121;
+    --color_web_NavAncoras_mobile_icon: #fff;
+    --color_web_NavPaginar_mobile:  #74fac0;
+
+    --font_web_Navpaginar:#;
+}
+
+@media screen and (max-width: 767px){
+    #header_top_desktop{
+        display: none !important; 
+    }
+
+    #header_top_mobile{
+        display: none !important; /*muda*/
+    }
+
+    #header_top_mobile.abrir{
+        display: flex !important;
+    }
+
+    section#header_top{
+        justify-content: space-between;
+    }
+    button#btn-menu{
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    .linha1{
+        margin-left: 55px;
+        width: 30px;
+        height: 2px;
+        background-color: #ccc;
+        display: block;
+
+        position: relative;
+        transform-origin: center;
+
+        transition: 1s;
+    }
+    .linha2 {
+        margin: 9px 10px 8px 55px;
+        width: 22px;
+        height: 2px;
+        background-color: #ccc;
+        display: block;
+
+        position: relative;
+        transform-origin: center;
+
+        transition: 0.7s;
+    }
+    .linha3 {
+        margin-left: 55px;
+        width: 16px;
+        height: 2px;
+        background-color: #ccc;
+        display: block;
+
+        position: relative;
+        transform-origin: center;
+
+        transition: 1s;
+    }
+    #header_top_mobile{
+        margin-top: -59.7px;
+        width: 100%;
+        transform: translateX(-11px) translateY(200px);
+        border-end-end-radius: 10px;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--color_web_corpoPaginar_mobile_menu);
+    }
+    section#menu_mobile_top{
+        width: 100%;
+        height: 12.4%;
+        padding: 32px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border: solid rgba(134, 134, 134, 0.205);
+        border-width: 0.1px;
+    }
+    section#menu_mobile_top > h1{
+        width: 100%;
+        font-size: 1rem;
+        color: #cccccc;
+    }
+    section#menu_mobile_top > p{
+        width: 100%;
+        font-size: .7rem;
+        font-weight: bold;
+        color: #cccccc80;
+    }
+    #menu_mobile{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+    } /*box-menu_mobile*/
+    #menu_mobile > a {
+        width: 100%;
+        padding: 3px;
+        border: solid 1px #ffffff25;
+        border-top: none;
+        text-decoration: none;
+    }
+    #menu_mobile > a > div.container{
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        background-color: var(--color_web_corpoPaginar_mobile_menu);
+    }
+    #menu_mobile > a > div.container:hover{ /*muda animacão*/
+        background-color: rgba(158, 158, 158, 0.103); /*muda*/
+    }
+    #menu_mobile > a > div.container > i{ /*esfora-circula*/
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 14%;
+        height: 55px;
+        border-radius: 20%;
+        border: solid #ccc;
+        color: #ccc;
+    }
+    #menu_mobile > a > div.container > h1{
+        color: #ccc;
+        padding-left: 40px;
+        font-size: 1.1rem;
+    }
+    #menu_mobile > a > div.container > h2{
+        color: #fff;
+        display: flex;
+        position: absolute;
+        padding-left: 85%;
+    }
+    /*menu-end*/
+
+    /*adptação-contudo da pagina*/
+
+    img#config-mobile{ /*imagen-mobile-confg*/
+        width: 170px;
+        position: relative;
+    }
+    #informacoes_inicial{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #container_informacoes{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 30px 30px 0px 30px;
+    }
+    #container_informacoes > p:nth-child(1){
+        font-size: 1rem;
+    }
+    #botton_contate-me{
+        width: 50%;
+    }
+    #botton_contate-me > a{
+        padding: 3px;
+    }
+    #container_informacoes > h1{
+        width: 100%;
+        font-size: 2.9rem;
+    }
+    #container_informacoes > p:nth-child(4){
+        width: 100%;
+        font-weight: bold;
+    }
+    #botton_contate-me > a > li{
+        font-weight: bold;
+    }
+}

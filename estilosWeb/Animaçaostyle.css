@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+:root {
+    --color_web_corpoPaginar: #212121;
+    --color_web_NavPaginar: #74fac0;
+    --color_web_NavAncoras: #fff;
+
+    --font_web_Navpaginar:#;
+}
+
+#btn-menu.ativar .linha1{
+    transform: translateY(10px) rotate(-54deg);
+}
+
+#btn-menu.ativar .linha2{
+    width: 0%;
+}
+
+#btn-menu.ativar .linha3{
+    width: 30px;
+    transform: translateY(-11px) rotate(49deg);
+}
