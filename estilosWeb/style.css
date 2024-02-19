@@ -19,6 +19,7 @@
 
 :root {
     --color_web_corpoPaginar: #212121;
+    --color_web_corpoPaginar_02: #1b1b1b;
     --color_web_NavPaginar: #74fac0;
     --color_web_NavAncoras: #fff;
     --color_web_informacoes: #fff;
@@ -91,6 +92,7 @@ main > section{
 }
 #informacoes_inicial{
     width: 100%;
+    height: 640px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -146,3 +148,51 @@ main > section{
     font-size: 1.5rem;
 }
 /*informacoes inicial 01 final*/
+
+/*section id = mytecnologia*/
+
+section#mytecnologia{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color_web_corpoPaginar_02);
+}
+li#tec-name-mytecnologia{
+    margin: -10px 0px 100px 0px;
+}
+li#tec-name-mytecnologia > h1{
+    color: var(--color_web_informacoes);
+    font-size: 3.5rem;
+    font-family: Arial, Helvetica, sans-serif; /*organizar*/
+}
+li#tec-name-mytecnologia > p{
+    color: var(--color_web_informacoes);
+    font-family: Arial, Helvetica, sans-serif; /*organizar*/
+    font-size: .8rem;
+    margin-top: 5px;
+}
+div#container-img{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+div.container-tecnologia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 50%;
+    border: solid #fff;
+    background-color: rgba(59, 59, 59, 0.24);
+    transition: .5s;
+}
+div.container-tecnologia:hover{
+    box-shadow: 0px 0px 40px #74fac0;
+    border: solid #74fac0 18px;
+}
