@@ -25,4 +25,35 @@
     #botton_contate-me{
         width: 50%;
     }
+
+    /*section id = mytecnologia*/
+
+    section#mytecnologia{
+        height: 600px;
+    }
+
+    li#tec-name-mytecnologia{
+        width: 70%;
+        margin: -100px 0px 100px 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    li#tec-name-mytecnologia > p{
+        margin-top: 0px;
+    }
+    div#container-img{
+        width: 100%;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    img.mobile-tec-just{ /*controlo tamanho das imagens*/
+        width: 60px;
+    }
+    div.container-tecnologia{
+        width: 140px;
+        height: 140px;
+        padding: 10px;
+    }
 }
