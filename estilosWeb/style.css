@@ -226,7 +226,7 @@ li#NameProjetos-ajust > h1 {
     margin: 50px 0px 50px 0px;
 }
 div#box-container{
-    width: 90%;
+    width: 97%;
     height: auto;
     display: flex;
     flex-direction: row;
@@ -264,6 +264,11 @@ div#box_link_projetos > p{
     width: 90%;
     text-align: justify;
 }
+div#link_pro_rep{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
 #button_projetos_login{
     margin: 20px 0px 20px 0px;
     padding: 10px;
@@ -280,5 +285,5 @@ div#box_link_projetos > p{
     font-size: 1rem;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+   
 }
-
