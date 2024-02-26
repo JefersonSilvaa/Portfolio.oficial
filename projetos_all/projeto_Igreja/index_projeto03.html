@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIBESC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="shortcut icon" href="faficon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/AnimaçaoStyle.css">
+    <link rel="stylesheet" href="estilos/webDesktopStyle.css">
+    <link rel="stylesheet" href="estilos/mobileStyle.css">
+</head>
+<body>
+    <header>
+
+        <nav class="container-navbar">
+
+            <img src="icons/icon_logo.png" alt="igreja">
+
+            <ul class="list-navbar">
+                <li><a href="#">MAIN</a></li>
+                <li><a href="#">CHURCH</a></li>
+                <li><a href="#">MINISTERIO</a></li>
+                <li><a href="#">MEDIA</a></li>
+                <li><a href="#">CONTACTS</a></li>
+            </ul>
+        </nav>
+
+        <button onclick="clicar()" id="btn-menu">
+            <span class="linha1"></span>
+            <span class="linha2"></span>
+            <span class="linha3"></span>
+        </button>
+
+        <nav class="container-navbar-mobile" id="menu-mobile">
+
+            <img src="icons/logo-navbar.png">
+
+            <ul class="list-mobile">
+
+                <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" stroke="#929292" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                    <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                    <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                  </svg><a href="#">MAIN</a></li>
+
+                <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-smart-home" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" stroke="#929292" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M19 8.71l-5.333 -4.148a2.666 2.666 0 0 0 -3.274 0l-5.334 4.148a2.665 2.665 0 0 0 -1.029 2.105v7.2a2 2 0 0 0 2 2h12a2 2 0 0 0 2 -2v-7.2c0 -.823 -.38 -1.6 -1.03 -2.105" />
+                    <path d="M16 15c-2.21 1.333 -5.792 1.333 -8 0" />
+                  </svg><a href="#">CHURCH</a></li>
+
+                <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-linktree" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" stroke="#929292" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 3l-7 12h3v5h5v-5h-2l4 -7z" />
+                    <path d="M15 3l7 12h-3v5h-5v-5h2l-4 -7z" />
+                  </svg><a href="#">MINISTERIO</a></li>
+
+                <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-broadcast" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" stroke="#929292" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M18.364 19.364a9 9 0 1 0 -12.728 0" />
+                    <path d="M15.536 16.536a5 5 0 1 0 -7.072 0" />
+                    <path d="M12 13m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+                  </svg><a href="#">MEDIA</a></li>
+
+                <li><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-wechat" width="22" height="22" viewBox="0 0 24 24" stroke-width="2" stroke="#929292" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M16.5 10c3.038 0 5.5 2.015 5.5 4.5c0 1.397 -.778 2.645 -2 3.47l0 2.03l-1.964 -1.178a6.649 6.649 0 0 1 -1.536 .178c-3.038 0 -5.5 -2.015 -5.5 -4.5s2.462 -4.5 5.5 -4.5z" />
+                    <path d="M11.197 15.698c-.69 .196 -1.43 .302 -2.197 .302a8.008 8.008 0 0 1 -2.612 -.432l-2.388 1.432v-2.801c-1.237 -1.082 -2 -2.564 -2 -4.199c0 -3.314 3.134 -6 7 -6c3.782 0 6.863 2.57 7 5.785l0 .233" />
+                    <path d="M10 8h.01" />
+                    <path d="M7 8h.01" />
+                    <path d="M15 14h.01" />
+                    <path d="M18 14h.01" />
+                  </svg><a href="#">CONTACTS</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section class="container-slider-area">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <img src="imagens/carrossel-web-mobile/acamp_imagem.jpg">
+                            <div class="conteudo-slider-area">
+                                <h2 class="titulo-h2">Acamp-igreja</h2>
+                                <h1 class="titulo-h1">ACAMP CARNAVAL/INVERNO</h1>
+                                <button class="inscricoes-btn"><a href="#">Inscrições <strong>>></strong></a></button>
+                                <button class="sobre-inscricoes-btn"><a href="#">O que ACAMP <strong>>></strong></a></button>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-slide">
+                            <img src="imagens/carrossel-web-mobile/eventos_imagem.jpg">
+                            <div class="conteudo-slider-area">
+                                <h2 class="titulo-h2">Eventos-Igreja</h2>
+                                <h1 class="titulo-h1">Eventos-louvorzão</h1>
+                                <button class="sobre-cultos-btn"><a href="#">Eventos<strong>>></strong></a></button>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img src="imagens/carrossel-web-mobile/cultos_imagem.jpg">
+                            <div class="conteudo-slider-area">
+                                <h2 class="titulo-h2">cultos-Igreja</h2>
+                                <h1 class="titulo-h1">cultos/Youtube</h1>
+                                <button class="sobre-cultos-btn"><a href="#">cultos/online<strong>>></strong></a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--botton navegação-->
+                    <div class="swiper-button- next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                    <!--botton navegação-->
+
+                    <!--botton navegação-->
+                    <div class="swiper-button- next"></div>
+                    <div class="swiper-button-pre"></div>
+                    <div class="paginação swiper"></div>
+                    <!--botton navegação-->
+
+                </div>
+        </section>
+        
+        <section class="container-novidades">
+            <h1>FIQUE POR DENTRO</h1>
+
+            <div class="container-box-novidades">
+                <article class="box-novidades01 box-animacao">
+                    <a href="#">
+                    <h1> > Sobre igreja < </h1>
+                </a></article>
+                <article class="box-novidades02 box-animacao">
+                    <a href="#">
+                    <h1> > Departamentos < </h1>
+                </a></article>
+                <article class="box-novidades03 box-animacao">
+                    <a href="#">
+                    <h1> > Galeria < </h1>
+                </a></article>
+            </div>
+        </section>
+
+        <section class="container-inf-sobre-igreja">
+
+            <img src="icons/icon_logo.png" alt="img-Pibesc">
+
+            <article class="inf-sobre-igreja">
+                <h1>Sobre a Igreja</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste illo quaerat maxime dolor. Tempora delectus ut fuga saepe neque modi magnam. Officiis necessitatibus laudantium temporibus tempora nam doloribus atque assumenda Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eligendi iusto dolore enim iste, eum obcaecati eveniet dicta nam fugit, corrupti veritatis harum sint natus dignissimos labore ipsum. Deleniti, deserunt.</p>
+                <a href="#"><button class="inf-btn">Ver mais</button></a>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="sistema_web/script.js"></script>
+    <!--FIM  Swiper JS -->
+    <script src="sistema_web/configuração.js"></script>
+
+</body>
+</html>

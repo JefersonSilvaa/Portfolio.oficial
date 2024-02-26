@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*animação do menu mobile*/
+#btn-menu.ativar .linha1{
+    transform: translateY(15px) rotate(-54deg);
+    background-color: #ffffff;
+}
+
+#btn-menu.ativar .linha2{
+    width: 0%;
+}
+
+#btn-menu.ativar .linha3{
+    transform: translateY(-10px) rotate(49deg);
+    background-color: #ffffff;
+}
+/*Fim animação do menu mobile*/

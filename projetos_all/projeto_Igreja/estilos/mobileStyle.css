@@ -1,0 +1,209 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Castoro+Titling&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+:root{
+
+    --corAncorasNavBar:#D6B357;
+    --cor02:#9D1816;
+    --corbranca:#fff;
+    --corpreta:#000000;
+    --corCorpoDaPagina:#272727;
+
+    --fontAncorasNavBar: 'Castoro Titling', cursive;
+    --fontAncorasMenuMobile:'Arvo', serif;
+    --font03:s;
+}
+
+@media screen and (min-width: 320px) and (max-width:930px) {
+    header > nav.container-navbar > ul.list-navbar {
+        display: none;
+    }
+
+    /*navbar mobile*/
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    nav.container-navbar > img{
+        width: 120px;
+        padding-right: 20px;
+        margin-left: 0;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        background-color: black;
+    }
+     /*fim navbar mobile*/
+
+    /*button configuraçao*/
+    button#btn-menu{
+        display: block;
+        width: 100px;
+        border-radius: 10px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        margin-top: -5px;
+        z-index: 1;
+    }
+    button#btn-menu > span.linha1{
+        margin-top: 20px;
+        margin-left: 35px;
+        margin-bottom: 10px;
+        width: 40px;
+        height: 3px;
+        background-color: #ccc;
+        display: block;
+        position: relative;
+        transform-origin: center;
+        transition: .7s;
+    }
+    button#btn-menu > span.linha2{
+        margin-left: 35px;
+        margin-bottom: 10px;
+        width: 40px;
+        height: 3px;
+        background-color: #ccc;
+        display: block;
+        position: relative;
+        transform-origin: center;
+        transition: .3s;
+    }
+    button#btn-menu > span.linha3{
+        margin-left: 35px;
+        margin-bottom: 10px;
+        width: 40px;
+        height: 3px;
+        background-color: #ccc;
+        display: block;
+        position: relative;
+        transform-origin: center;
+        transition: .7s;
+    }
+     /*FIM button configuraçao*/
+
+     /*function clicar*/
+     header > nav.container-navbar-mobile.abrir{
+        display: flex;
+     }
+     /*FIM function clicar*/
+
+     /*navbar-mobile*/
+     header > nav.container-navbar-mobile{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 55%;
+        height: auto;
+        padding-bottom: 20px;
+        top: .1px;
+        border-bottom-right-radius: 4px;
+        background-color: #272727;
+        display: none;
+        z-index: 999;
+     }
+     nav.container-navbar-mobile > img{
+        width: 40%;
+        margin-top: 10px;
+        margin-left: 10px;
+     }
+     nav.container-navbar-mobile > ul.list-mobile{
+        list-style: none;
+        margin-top: 10px;
+        width: 90%;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+     }
+     nav.container-navbar-mobile > ul.list-mobile > li{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        border-radius: 20px;
+     }
+     nav.container-navbar-mobile > ul.list-mobile > li:hover{
+        background-color: rgba(255, 255, 255, 0.151);
+     }
+     nav.container-navbar-mobile > ul.list-mobile > li > a{
+        margin-left: 20px;
+        text-decoration: none;
+        color: #929292;
+        font-family: var(--fontAncorasMenuMobile);
+        font-size: .7rem;
+     }
+     /*FIM navbar-mobile*/
+
+     /*slider-area-section*/
+      main > section.container-slider-area{
+         height: 79vh;
+         margin-bottom: 3vh !important;
+      }
+     /*FIM slider-area-section*/
+
+     /*slider-area mobile*/
+     div.conteudo-slider-area{
+         width: 100%;
+     }
+     div.conteudo-slider-area > h2.titulo-h2{
+      font-size: 1rem;
+     }
+     div.conteudo-slider-area > h1.titulo-h1{
+      font-size: 1.5rem;
+     }
+
+     div.conteudo-slider-area > button.inscricoes-btn > a{
+      text-decoration: none;
+      color: var(--corCorpoDaPagina);
+      font-family: var(--fontAncorasMenuMobile);
+  }
+
+     /*fim slider-area mobile*/
+
+     /*section-container-novidades-aside*/
+     section.container-novidades{
+         padding-bottom: 4vh;
+     }
+
+     section.container-novidades > h1{
+      font-size: 1.7rem;
+      margin-bottom: 30px;
+      margin-top: 50px;
+     }
+
+     div.container-box-novidades{
+      width: 96%;
+      gap: 10px;
+     }
+     article.box-novidades01{
+      height: 140px;
+     }
+     article.box-novidades02{
+      height: 140px;
+     }
+     article.box-novidades03{
+      height: 140px;
+     }
+
+     /*FIM section-container-novidades-aside*/
+
+     /*section-container-inf-sobre-igreja*/
+     article.inf-sobre-igreja{
+       width: 75%;
+       display: flex;
+       align-items: center;
+     }
+     article.inf-sobre-igreja > h1{
+      font-size: 1.7rem;
+      margin-top: 40px;
+     }
+     article.inf-sobre-igreja > p{
+         font-size: .8rem;
+         text-indent: 20px;
+     }
+     /*FIM section-container-inf-sobre-igreja*article*/
+}
