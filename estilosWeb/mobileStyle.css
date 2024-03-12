@@ -200,33 +200,34 @@
        width: 100%; 
        height: auto;
        flex-wrap: wrap;
+       padding: 10px;
     }
     li#tec-name-mytecnologia{
-        width: 80%;
-        margin: 20px 0px 40px 0px;
+        width: 100%;
+        margin: 10px 0px 10px 0px;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
     li#tec-name-mytecnologia > h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     div#container-img{
         width: 100%;
         height: auto;
-        justify-content: space-around;
-        flex-wrap: wrap !important;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
     div#container-img > a {
         margin: 10px;
     }
     img.mobile-tec-just{ /*controlo tamanho das imagens*/
-        width: 40px;
+        width: 30px;
     }
     div.container-tecnologia{
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         padding: 10px;
     }
     div.container-tecnologia:hover{
@@ -236,4 +237,8 @@
 }
 
 /*section id = container_projetos_all*/
+
+div#box-container{ 
+    width: 90%;
+}
 
