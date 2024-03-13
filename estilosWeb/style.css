@@ -179,6 +179,7 @@ div#container-img{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 30px;
 }
 a.just-nametecnologia{ /*alinhamento do text das tecnologia*/
     display: flex;
@@ -208,6 +209,21 @@ div.container-tecnologia:hover{
     box-shadow: 0px 0px 40px #74fac0;
     border: solid #74fac0 10px;
 }
+section#mytecnologia > a > button#button_todos_mytecnologia{
+    width: auto;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #8d8d8d;
+    color: #3f8b6a;
+    background-color: #1b1b1b;
+    transition: .2s;
+}
+section#mytecnologia > a > button#button_todos_mytecnologia:hover{
+    box-shadow: 1px 2px 0px 2px #27b9814b;
+    color: #5bc597;
+    border-radius: 20px;
+}
+
 /*section id = mytecnologia FIM*/
 
 /*section id = container_projetos_all*/
