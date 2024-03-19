@@ -311,3 +311,108 @@ button#button_todos_projetos:hover{
     color: #5bc597;
     border-radius: 20px;
 }
+/*section id = container_projetos_all*/
+
+/* section id = section_cursos > id = container_cursos > id = box_cursos */
+
+section#section_cursos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: var(--color_web_corpoPaginar_02);
+}
+li#nome_just_cursos > h1{
+    color: var(--color_web_informacoes);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    margin: 50px 0px 20px 0px;
+    background-color: var(--color_web_informacoes_h2);
+    padding: 10px;
+    border-radius: 20px;
+    color: var(--color_web_corpoPaginar);
+    box-shadow: 0px 0px 5px 4px #00000069;
+}
+#container_cursos{
+    width: 95%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#box_tecnologo{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    gap: 9px;
+    background-color: #262626;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+#box_tecnologo > h2{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--color_web_informacoes);
+}
+#box_tecnologo > h1{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--color_web_informacoes);
+}
+#box_tecnologo > p{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--color_web_informacoes);
+}
+#box_tecnologo > h3{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--color_web_informacoes);
+}
+
+/* class dos cursos uso diferente*/
+.box_cursos{
+    display: flex;
+    flex-direction: column;
+    width: 330px;
+    height: 110px;
+    padding: 10px;
+    margin: 10px;
+    gap: 9px;
+    background-color: #262626;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.box_cursos > h2{
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--color_web_informacoes);
+}
+.box_cursos > h1{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--color_web_informacoes);
+}
+.box_cursos > p{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--color_web_informacoes);
+}
+.box_cursos > h3{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: var(--color_web_informacoes);
+}
