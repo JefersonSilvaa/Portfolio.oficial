@@ -420,7 +420,7 @@ li#nome_just_cursos > h1{
 
 section#section_skills{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     width: 100%;
     height: auto;
     padding: 30px 0px 25px 0px;
@@ -429,6 +429,7 @@ section#section_skills{
 #container_skills{
     display: flex;
     flex-direction: column;
+    justify-content: start;
     width: 10%;
     height: auto;
 }
@@ -436,7 +437,7 @@ h2.container_roxo{
     width: 7px;
     height: 15px;
     margin-right: 7px;
-    border-radius: 40%;
+    border-radius: 30%;
     background-color: purple;
 }
 #container_skills > li#name_just_skills{
@@ -448,7 +449,7 @@ li#name_just_skills > h1{
     font-family: Arial, Helvetica, sans-serif;
     color: var(--color_web_informacoes);
 }
-div#colum_skills{
+div#colum_skills {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -461,3 +462,6 @@ li.NameSkill{
     color: #ffffffcb;
     margin-bottom: 5px;
 }
+
+/*foot > inf > redes {img+texto}*/
+
